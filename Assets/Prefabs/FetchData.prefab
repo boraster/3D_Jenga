@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7389771101572497491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4757956667202396768}
+  - component: {fileID: 5091150666628876689}
+  - component: {fileID: 6436692380482936629}
+  - component: {fileID: 1029218517612257360}
+  - component: {fileID: 3338209443695283845}
+  m_Layer: 0
+  m_Name: FetchData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4757956667202396768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7389771101572497491}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.262, y: 2.118, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5091150666628876689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7389771101572497491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e04c2370db6504bb73b24af39f96db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6436692380482936629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7389771101572497491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 024ed1fded5a4363a4b5b8469433bb8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gradeSelection: 7
+  numberOfBlocksOnALevel: 3
+  distanceBetweenBlocks: 0.25
+  rotationAngleAroundYAxis: 90
+  stackParent: {fileID: 2387070681945557619, guid: 9e359d58b7dcabb4c817192ad2f6977f, type: 3}
+  distanceBetweenStacks: 10
+  jengaBlocksTypes:
+  - {fileID: 1192583191413438828, guid: 8a347a6a86deadc428512f0502bf9903, type: 3}
+  - {fileID: 1387053154656859165, guid: b4d1f550d4bda8748abf645e16e9c33b, type: 3}
+  - {fileID: 5895380038302049802, guid: d4b6da5a4d4a0554ca160cec77a81b62, type: 3}
+--- !u!114 &1029218517612257360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7389771101572497491}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b1f6bb75b24db6baca0eec4b42f7bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _camera: {fileID: 0}
+  block:
+    serializedVersion: 2
+    m_Bits: 0
+  FreeLook: {fileID: 0}
+  VirtualCamera: {fileID: 0}
+  cube: {fileID: 0}
+--- !u!114 &3338209443695283845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7389771101572497491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08dad6a5c7fc47d89bfb98e0c8af0f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  testButton: {fileID: 0}
